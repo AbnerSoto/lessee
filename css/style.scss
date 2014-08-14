@@ -20,17 +20,13 @@ body {
   background-color: transparent;
 }
 
-.videoWrapper {
-  width: 500px;
-  height: 281px;
-  float: left;
-  margin-right: 10px;
+.poster {
+  margin-bottom: 50px;
 }
-#secondVideo {
-  float: none;
-  display: inline-block;
-}
-#portfolio {
+
+#gallery {
+  margin-bottom: 50px;
+
   .row {
     margin: 0 auto;
     margin-bottom: 10px;
@@ -48,12 +44,10 @@ body {
 .group1 {
   width: 100%;
 }
-
-
-/**************************
-GALLERY PAGE
-***************************/
-#gallery #headerInfo {
-  height: 200px;
-  padding: 0 10px; 
+.navbar-fixed-bottom .fb-like {
+  margin-top: 10px;
 }
+.container iframe {
+  margin: 0 auto;
+}
+

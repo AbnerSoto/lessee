@@ -14,22 +14,17 @@ body {
 #header .navbar-default {
   background-color: transparent; }
 
-.videoWrapper {
-  width: 500px;
-  height: 281px;
-  float: left;
-  margin-right: 10px; }
+.poster {
+  margin-bottom: 50px; }
 
-#secondVideo {
-  float: none;
-  display: inline-block; }
-
-#portfolio .row {
-  margin: 0 auto;
-  margin-bottom: 10px;
-  padding: 0; }
-#portfolio p {
-  margin: 10px 0; }
+#gallery {
+  margin-bottom: 50px; }
+  #gallery .row {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 0; }
+  #gallery p {
+    margin: 10px 0; }
 
 .modal {
   width: 60%; }
@@ -37,9 +32,8 @@ body {
 .group1 {
   width: 100%; }
 
-/**************************
-GALLERY PAGE
-***************************/
-#gallery #headerInfo {
-  height: 200px;
-  padding: 0 10px; }
+.navbar-fixed-bottom .fb-like {
+  margin-top: 10px; }
+
+.container iframe {
+  margin: 0 auto; }

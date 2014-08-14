@@ -1,0 +1,151 @@
+ <!DOCTYPE html> 
+<html>
+<head>
+	<title>The Lessee</title>
+    <meta name="viewport" content="width=300">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+    <link href="css/colorbox.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+    
+        <div id="header">
+
+
+            <div class ="navbar navbar-inverse">
+                <div class="containter">
+
+                    <a href="#" class="navbar-brand"></a>
+
+                    <button class="navbar-toggle pull-left" data-toggle="collapse" data-target=".navHeaderCollapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                    </button>
+					<div class="container">
+                        <div class = "collapse navbar-collapse navHeaderCollapse">
+
+
+                            <ul class="nav navbar-nav">
+
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="trailer.html">Tralier</a></li>
+                                <li><a href="synopsis.html">Synopsis</a></li>
+                                <li class="active"><a href="#">Gallery</a></li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            
+        </div><!-- /#header -->
+
+        <div class="container">
+	        <div id="gallery" class="clearfix">
+
+	            <div class="row">
+	                <p>
+	                    <a class="group1" title="the Girls" alt="shooting a scene with the girls" href="img/gallery/theGirls.jpg">
+	                        <img src="img/gallery/sized/theGirls.jpg" class="img-rounded img-responsive col-md-4" title="the Girls" alt="shooting a scene with the girls">
+	                    </a>
+	                </p>
+	                <p>
+	                    <a class="group1" title="Beach" alt="Day 1 at the beach" href="img/gallery/beach.jpg">
+	                        <img src="img/gallery/sized/beach.jpg" class="img-rounded img-responsive col-md-4" title="Beach" alt="Day 1 at the beach">
+	                    </a>
+	                </p>               
+	                <p>
+	                    <a class="group1" title="Olivia" alt="solo scene with Olivia Rush" href="img/gallery/olivia2.jpg">
+	                        <img src="img/gallery/sized/olivia2.jpg" class="img-rounded img-responsive col-md-4" title="Olivia" alt="solo scene with Olivia Rush">
+	                    </a>
+	                </p>
+	            </div>
+	            <div class="row">
+	                <p>
+	                    <a class="group1" title="Cham" alt="solo scene with Cham Zhao" href="img/gallery/cham.jpg">
+	                        <img src="img/gallery/sized/cham.jpg" class="img-rounded img-responsive col-md-4" title="cham" alt="solo scene with Cham Zhao">
+	                    </a>
+	                </p>
+	                <p>
+	                    <a class="group1" title="Mina" alt="Mina on the bed" href="img/gallery/mina.jpg">
+	                        <img src="img/gallery/sized/mina.jpg" class="img-rounded img-responsive col-md-4" title="Mina" alt="Mina on the bed">
+	                    </a>
+	                </p>               
+	                <p>
+	                    <a class="group1" title="Sarah" alt="Sarah flirting with the camera" href="img/gallery/sarah.jpg">
+	                        <img src="img/gallery/sized/sarah.jpg" class="img-rounded img-responsive col-md-4" title="Sarah" alt="Sarah flirting with the camera">
+	                    </a>
+	                </p>
+	            </div>
+	            <div class="row">
+	                <p>
+	                    <a class="group1" title="Mina" alt="Mina on the bed" href="img/gallery/mina2.jpg">
+	                        <img src="img/gallery/sized/mina2.jpg" class="img-rounded img-responsive col-md-4" title="Mina" alt="Mina on the bed">
+	                    </a>
+	                </p>
+	                <p>
+	                    <a class="group1" title="Kitchen" alt="Sarah in the kitchen" href="img/gallery/kitchen.jpg">
+	                        <img src="img/gallery/sized/kitchen.jpg" class="img-rounded img-responsive col-md-4" title="Kitchen" alt="Sarah in the kitchen">
+	                    </a>
+	                </p>               
+	                <p>
+	                    <a class="group1" title="Olivia" alt="solo scene with Olivia Rush" href="img/gallery/olivia.jpg">
+	                        <img src="img/gallery/sized/olivia.jpg" class="img-rounded img-responsive col-md-4" title="olivia" alt="solo scene with Olivia Rush">
+	                    </a>
+	                </p>
+	            </div>
+
+
+	        </div>
+	    </div>
+
+        <div class="navbar navbar-inverse navbar-fixed-bottom">
+
+            <div class="container">
+                <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
+            </div>
+
+        </div>
+
+
+     
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.colorbox-min.js"></script>
+
+
+    <script>
+            $(document).ready(function(){
+                $(".group1").colorbox({
+                    rel:'group1',
+                    opacity:'0.50',
+                    scalePhotos: 'true',
+                    maxWidth: '70%'
+                });
+            });
+    </script>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=816507755041372&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+
+</body>
+
+	
+
+
+</html>
