@@ -36,4 +36,45 @@ body {
   margin-top: 10px; }
 
 .container iframe {
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 100px; }
+
+#header {
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  #header .navbar-inverse {
+    margin-bottom: 0; }
+
+.titleInfo {
+  text-align: center;
+  margin-bottom: 50px; }
+  .titleInfo h3 {
+    margin-top: 30px; }
+
+#synopsisPage .bodyWrapper {
+  background: url("../img/sarah02.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1125px;
+  color: #bb0000; }
+  @media all and (max-width: 1200px) {
+    #synopsisPage .bodyWrapper {
+      height: 800px; } }
+  @media all and (max-width: 900px) {
+    #synopsisPage .bodyWrapper {
+      height: 600px; } }
+  @media all and (max-width: 700px) {
+    #synopsisPage .bodyWrapper {
+      height: 400px; } }
+  @media all and (max-width: 500px) {
+    #synopsisPage .bodyWrapper {
+      height: inherit; } }
+  #synopsisPage .bodyWrapper .container {
+    margin-left: 150px;
+    width: 500px; }
+    @media all and (max-width: 700px) {
+      #synopsisPage .bodyWrapper .container {
+        width: 90%;
+        margin-left: 0; } }
